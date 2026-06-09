@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.body-Acceuil, .body-connexion {
+	background: url(../img/bg.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.black-fill {
+	background: rgba(100, 114, 139, 0.907);
+	min-height: 100vh;
+}
+#AcceuilNav {
+	background: #f3f0f0fa !important;
+}
+.Bienvenue-text {
+	min-height: 80vh;
+}
+.Bienvenue-text img {
+	width: 100px;
+}
+.Bienvenue-text h4 {
+	color: #eee;
+	font-size: 51px;
+	font-family: 'Lobster', cursive;
+
+}
+.Bienvenue-text p {
+	color: hwb(0 17% 79%);
+	background: #f9f9f9ef;
+	padding: 5px;
+	border-radius: 4px;
+}
+#Apropos {
+	min-height: 100vh;
+}
+#Apropos .card-1{
+	max-width: 600px;
+	width: 90%;
+	background: #fcfafa;
+	padding: 20px;
+	border-radius: 5px;
+}
+#Apropos .card-1 h5{
+	font-family: 'Lobster', cursive;
+	font-size: 28px;
+}
+
+#contact {
+	min-height: 100vh;
+}
+#contact form{
+	max-width: 600px;
+	width: 90%;
+	background: rgba(255,255,255, 0.5);
+	padding: 20px;
+	border-radius: 5px;
+}
+#contact form h3 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+textarea {
+	resize: none;
+}
+
+.connexion {
+	max-width: 500px;
+	width: 90%;
+	background: rgba(255,255,255, 0.5);
+	padding: 10px;
+	border-radius: 10px;
+}
+.connexion h3{
+	text-align: center;
+	font-size: 50px;
+}
+.w-450 {
+	width: 450px;
+}
+.n-table {
+	max-width: 800px;
+}
+.form-w {
+	max-width: 600px;
+	width: 100%;
+}
